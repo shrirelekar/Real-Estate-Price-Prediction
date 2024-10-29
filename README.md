@@ -1,8 +1,11 @@
 Real Estate Price Prediction<br>
-This project builds a predictive model for real estate prices using various features, including location, property size, and total square footage.<br>
+This project aims to predict real estate prices using machine learning algorithms, focusing on model accuracy and selection through advanced evaluation techniques.<br><br>
 
 Project Overview<br>
-Data Cleaning and Exploration: Reduced unnecessary features and handled missing data for a cleaner dataset.<br>
-Feature Engineering: Focused on transforming and encoding features.<br>
-Model Training: Built and evaluated models to achieve optimal prediction accuracy.<br>
-This repository provides insights into building predictive models and is ideal for anyone looking to explore machine learning applications in real estate!<br>
+Data Cleaning and Exploration: Initial data exploration and preprocessing steps, including removing irrelevant features and handling missing values.<br>
+Model Evaluation with K-Fold Cross-Validation: Used K-Fold cross-validation to assess the accuracy of the Linear Regression model, ensuring consistency in model performance.<br>
+Model Selection with GridSearchCV: Compared Linear Regression, Lasso Regression, and Decision Tree models using GridSearchCV to identify the best-performing model and fine-tune its hyperparameters.<br><br>
+Results<br>
+The optimal model was selected based on cross-validation accuracy and refined using GridSearchCV, achieving robust performance in predicting house prices.<br><br>
+
+This project is a great resource for those interested in predictive modeling, data preprocessing, and advanced model selection techniques in real estate!<br>
